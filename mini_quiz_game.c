@@ -14,12 +14,12 @@ int main()
 
     if (strcmp(answer, "Delhi") == 0 || strcmp(answer, "delhi") == 0)
     {
-        printf("Correct! 🎉\n");
+        printf("Correct! \n");
         score++;
     }
     else
     {
-        printf("Wrong! ❌\n");
+        printf("Wrong! \n");
     }
 
     printf("\n\n2. Which language are you learning?\n");
@@ -28,12 +28,12 @@ int main()
 
     if (strcmp(answer, "C") == 0 || strcmp(answer, "c") == 0)
     {
-        printf("Correct! 🎉\n");
+        printf("Correct! \n");
         score++;
     }
     else
     {
-        printf("Wrong! ❌\n");
+        printf("Wrong! \n");
     }
 
     printf("\n\n3. How many days are there in a week?\n");
@@ -42,12 +42,12 @@ int main()
 
     if (strcmp(answer, "7") == 0)
     {
-        printf("Correct! 🎉\n");
+        printf("Correct! \n");
         score++;
     }
     else
     {
-        printf("Wrong! ❌\n");
+        printf("Wrong! \n");
     }
 
     printf("\n\n===== QUIZ COMPLETED =====\n");
@@ -55,19 +55,19 @@ int main()
 
     if (score == 3)
     {
-        printf("Excellent! 🔥\n");
+        printf("Excellent! \n");
     }
     else if (score == 2)
     {
-        printf("Good job! 👏\n");
+        printf("Good job! \n");
     }
     else if (score == 1)
     {
-        printf("Keep practicing! 💪\n");
+        printf("Keep practicing! \n");
     }
     else
     {
-        printf("Don't give up! 😊\n");
+        printf("Don't give up! \n");
     }
 
     return 0;
